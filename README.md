@@ -1,7 +1,7 @@
 # Virtual Internship Program: Big Data Analytics-Kimia Farma
-Name: Nishrina Rawi
-E-mail: nishrinarawi@gmail.com
-LinkedIn: www.linkedin.com/in/nishrina-rawi
+Name: Nishrina Rawi  
+E-mail: nishrinarawi@gmail.com  
+LinkedIn: www.linkedin.com/in/nishrina-rawi  
 
 ## Kimia Farma Performance Analytics 2020-2023
 
@@ -103,6 +103,8 @@ JOIN performance_analytics.product AS p ON t.product_id=p.product_id;
 
 ### Create Performance Analytics Dashboard
 Here is the performance analytics dashboard that I have created. This dashboard consists of 3 pages.
+
+Check the full version of the dashboard [here](https://lookerstudio.google.com/reporting/4c589502-e2c8-4787-9fae-b4174c7101d3)  
 
 1. Overview
 The first page contains information about the attributes of the tables and an overview of the tables.

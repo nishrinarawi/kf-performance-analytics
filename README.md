@@ -71,7 +71,8 @@ ALTER TABLE performance_analytics.inventory ADD FOREIGN KEY (product_id) REFEREN
 ```
 
 3. Create new aggregate table  
-Then from those four main tables, a new table named 'analysis_table' is created. 
+Then from those four main tables, a new table named 'analysis_table' is created.
+![new_table](https://github.com/nishrinarawi/kf-performance-analytics/blob/44f087fbf1f6efbc523258c14e396edcf03bed59/asset/new_table.png)  
 
 ```sql
 CREATE TABLE performance_analytics.analysis_table AS 
@@ -106,12 +107,13 @@ Here is the performance analytics dashboard that I have created. This dashboard 
 1. Overview
 The first page contains information about the attributes of the tables and an overview of the tables.
 
-![dashboard1](https://github.com/nishrinarawi/kf-performance-analytics/blob/b40e98f4b715b75a496a7f49a0ea781d7869f39f/asset/dashboard1.png)
+![dashboard1](https://github.com/nishrinarawi/kf-performance-analytics/blob/b40e98f4b715b75a496a7f49a0ea781d7869f39f/asset/dashboard1.png)  
 2. Summary
 The second page contains a summary of performance analytics from Kimia Farma.
---INSERT PICTURE--
+![dashboard2](https://github.com/nishrinarawi/kf-performance-analytics/blob/44f087fbf1f6efbc523258c14e396edcf03bed59/asset/dashboard2.png)  
 3. Area
 
 On this page, you can see the performance based on the area of each branch. This page also includes a geo chart to visualize performance through a map. The color on the map indicates the number of branches in that province. The darker or more orange the color, the more branches are present in that province. 
---INSERT PICTURE--
+![dashboard3](https://github.com/nishrinarawi/kf-performance-analytics/blob/44f087fbf1f6efbc523258c14e396edcf03bed59/asset/dashboard3.png)
+
 There are filters for province, city, and even branch. Additionally, there is a date filter. For example, if you click on the Aceh province area, all metrics will calculate specifically for the branches located in Aceh province, and the same applies to other filters.

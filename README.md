@@ -8,21 +8,25 @@ LinkedIn: www.linkedin.com/in/nishrina-rawi
 Kimia Farma Tbk (KAEF) is the first pharmaceutical industry company in Indonesia established by the Dutch East Indies Government in 1817. For this reason, Kimia Farma has been present for more than 100 years, in line with the development and development of the nation, especially the development of Indonesian Health. Currently, Kimia Farma and its business groups have a network of 10 Factories, 1,234 Pharmacy outlets (Apotek Kimia Farma), 419 Health Clinic outlets, 72 Clinical Laboratory outlets, 8 Optics and 3 Beauty Clinics.
 
 ### Objective
-As a Big Data Analytics Intern at Kimia Farma, my tasks include a series of challenges that require a deep understanding of data and analytical skills. I have been asked to evaluate the business performance of Kimia Farma from 2020 to 2023. The analysis process begins with creating a database using Google BigQuery and then proceeds with creating a performance analytics dashboard using Looker Studio.
+As a Big Data Analytics Intern at Kimia Farma, my tasks include a series of challenges that require a deep understanding of data and analytical skills. I have been asked to evaluate the business performance of Kimia Farma from 2020 to 2023. 
 
-### Tools
+### Tools  
+The analysis process begins with creating a database using Google BigQuery and then proceeds with creating a performance analytics dashboard using Looker Studio.  
 
 ## Dataset 
 There are four tables used in this project, including: 
 - **kf_final_transaction.csv**
--transaction_id: kode id transaksi,
--product_id : kode produk obat,
--branch_id: kode id cabang Kimia Farma,
--customer_name: nama customer yang melakukan transaksi,
--date: tanggal transaksi dilakukan,
--price: harga obat,
--discount_percentage: persentase diskon yang diberikan pada obat,
--rating: penilaian konsumen terhadap transaksi yang dilakukan.
+
+|Attribute|Description|
+|----------|----------------|
+|transaction_id|kode id transaksi|
+|product_id|kode produk obat|
+|branch_id|kode id cabang Kimia Farma|
+|customer_name|nama customer yang melakukan transaksi|
+|date|tanggal transaksi dilakukan|
+|price|harga obat|
+|discount_percentage|persentase diskon yang diberikan pada obat|
+|rating|penilaian konsumen terhadap transaksi yang dilakukan|
 
 - **kf_product.csv**
 
